@@ -1,0 +1,40 @@
+{
+  "profile_url": "/profile",
+  "profile_form_fields": [
+    {
+    "name": "first_name",
+    "label": "First Name"
+    },
+    {
+      "name": "last_name",
+      "label": "Last Name"
+    },
+    {
+      "name": "email",
+      "label": "Email"
+    }
+  ],
+  "update_btn_text": " Update ",
+  "profile_update_success_message": "Profile Information Updated Successfully",
+  "change_password_heading": "Change your password",
+  "change_password_rules": [
+    " Password must contain at least one Small Letter ",
+    " Password must contain at least one Capital Letter ",
+    " Password must contain at least one Number ",
+    " Password must contain at least one Special character (!@#$&*) ",
+    " Password must contain a minimum length of 8 characters "
+  ],
+  "change_password_form_fields": [
+    {
+    "name": "old_password",
+    "label": "Current Password"
+    },
+    {
+      "name": "new_password",
+      "label": "New Password"
+    }
+  ],
+  "change_password_btn_text": " Update Password ",
+  "change_password_success_message": "Password Updated Successfully",
+  "logout_url": "/login"
+}

@@ -1,0 +1,224 @@
+{
+  "page_url": "/manage-companies",
+  "manage_question_page_url": "/manage-questions",
+  "manage_employee_page_url": "manage-employees",
+  "add_question_page_url": "questions",
+  "menu_name": "Manage Companies",
+  "page_heading": "Manage Companies",
+  "page_add_company_button": {
+    "name": "add_company",
+    "label": " Add Company ",
+    "class": "btn-primary"
+  },
+  "add_company_title": "Add Company",
+  "add_company_form_fields": [
+    {
+      "name": "company_name",
+      "label": "Name",
+      "type": "input"
+    },
+    {
+      "name": "company_email",
+      "label": "Representative Email",
+      "type": "input"
+    },
+    {
+      "name": "company_description",
+      "label": "Introduction for Organization",
+      "type": "textarea"
+    },
+    {
+      "name": "company_logo",
+      "label": "Logo",
+      "type": "file"
+    }
+  ],
+  "company_action_items":[
+    {
+      "name": "view_more",
+      "class": "bi-arrow-up-right-square"
+    },
+    {
+      "name": "copy",
+      "class": "bi-copy"
+    },
+    {
+      "name": "edit",
+      "class": "bi-pencil-square"
+    },
+    {
+      "name": "delete",
+      "class": "bi-trash3"
+    }
+  ],
+  "save_btn_text": " Submit ",
+  "add_company_success_message": "Company Added Successfully",
+  "update_company_title": "Edit Company",
+  "update_btn_text": " Update ",
+  "edit_company_form_fields": [
+    {
+      "name": "company_name",
+      "label": "Name",
+      "type": "input"
+    },
+    {
+      "name": "company_email",
+      "label": "Representative Email",
+      "type": "input"
+    },
+    {
+      "name": "company_description",
+      "label": "Introduction for Organization",
+      "type": "textarea"
+    },
+    {
+      "name": "company_logo",
+      "label": "Logo",
+      "type": "file"
+    }
+  ],
+  "copy_company_form_field": {
+    "name": "company_name",
+    "label": "Company Name",
+    "type": "input"
+  },
+  "copy_company_form_buttons": [" Cancel ", " Create Copy "],
+  "copy_company_success_message": "Company Copied Successfully",
+  "create_company_copy_button": " Create Copy ",
+  "edit_company_success_message": "Company Updated Successfully",
+  "copy_confirmation_message": " Would you like to make a copy? ",
+  "delete_confirmation_message": " Do you want to delete this company? ",
+  "delete_company_success_message": "Company Deleted Successfully",
+  "index_of_first_company_card": 2,
+  "index_of_company_first_employee": 1,
+  "company_details_tabs": [
+    {
+      "name": "add_questions",
+      "label": "Add Questions"
+    },
+    {
+      "name": "manage_employees",
+      "label": "Manage Employees"
+    },
+    {
+      "name": "reports",
+      "label": "Reports"
+    }
+  ],
+  "company_add_question_tab": {
+    "name": "add_questions",
+    "label": "Add Questions"
+  },
+  "company_manage_employee_tab": {
+    "name": "manage_employee",
+    "label": "Manage Employees"
+  },
+  "add_question_button": {
+    "name": "add_questions",
+    "label": "Add Question"
+  },
+  "add_employee_button": {
+    "name": "add_employee",
+    "label": " Add Employee "
+  },
+  "question_freeze_or_unfreeze_button_position": 2,
+  "question_freeze_button": {
+    "name": "freeze_question",
+    "label": "Freeze Questions ",
+    "class": "btn-primary"
+  },
+  "question_unfreeze_button": {
+    "name": "unfreeze_question",
+    "label": "Unfreeze Questions ",
+    "class": "btn-primary"
+  },
+  "add_question_modal_title": "Add Question",
+  "add_question_form_field": {
+    "name": "question",
+    "label": "Question",
+    "type": "textarea"
+  },
+  "edit_question_form_field": {
+    "name": "question",
+    "label": "Question",
+    "type": "textarea"
+  },
+  "add_employee_title": "Add User",
+  "add_admin_participant_form_fields": [
+    {
+      "name": "user_email",
+      "label": "Email",
+      "type": "input"
+    },
+    {
+      "name": "first_name",
+      "label": "First Name",
+      "type": "input"
+    },
+    {
+      "name": "last_name",
+      "label": "Last Name",
+      "type": "input"
+    },
+    {
+      "name": "user_type",
+      "label": "User Type",
+      "type": "select"
+    },
+    {
+      "name": "select_admin",
+      "label": "Select Admin",
+      "type": "select"
+    },
+    {
+      "name": "feedback_duration",
+      "label": "Feedback Duration",
+      "type": "select"
+    }
+  ],
+  "add_rater_form_fields": [
+    {
+      "name": "user_email",
+      "label": "Email",
+      "type": "input"
+    },
+    {
+      "name": "first_name",
+      "label": "First Name",
+      "type": "input"
+    },
+    {
+      "name": "last_name",
+      "label": "Last Name",
+      "type": "input"
+    },
+    {
+      "name": "user_type",
+      "label": "User Type",
+      "type": "select"
+    },
+    {
+      "name": "select_participant",
+      "label": "Select Participant",
+      "type": "select"
+    },
+    {
+      "name": "rater_type",
+      "label": "Rater Type",
+      "type": "select"
+    }
+  ],
+  "invite_modal_invite_button_label": " Send Invitation ",
+  "question_submit_button_text": " Submit ",
+  "add_question_success_message": "Question Added Successfully",
+  "update_question_success_message": "Question Updated Successfully",
+  "delete_question_success_message": "Question Deleted Successfully",
+  "question_edit_action_label": "Edit ",
+  "question_delete_action_label": "Delete ",
+  "edit_question_modal_title": "Edit Question",
+  "delete_question_confirmation_message": " Do you want to delete this Question? ",
+  "company_question_category_and_sub_category": "Custom",
+  "company_question_type": "rating",
+  "freeze_unfreeze_confirmation_modal_yes_button": " Yes ",
+  "freeze_unfreeze_confirmation_modal_no_button": " No "
+}

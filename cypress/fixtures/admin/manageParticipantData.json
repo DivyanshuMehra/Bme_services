@@ -1,0 +1,147 @@
+{
+  "page_url": "/manage-participants",
+  "dashboard_page_url": "dashboard",
+  "menu_name": "Manage Participants",
+  "page_heading": "Manage Participants",
+  "user_type": "participant",
+  "page_add_participant_button": {
+    "name": "add_participant",
+    "label": " Add Participant ",
+    "class": "btn-primary"
+  },
+  "add_participant_title": "Add User",
+  "participant_icon_class": "bi bi-person-fill",
+  "participant_card_tag": "Invited Raters:",
+  "add_participant_form_fields": [
+    {
+      "name": "user_email",
+      "label": "Email",
+      "type": "input"
+    },
+    {
+      "name": "first_name",
+      "label": "First Name",
+      "type": "input"
+    },
+    {
+      "name": "last_name",
+      "label": "Last Name",
+      "type": "input"
+    },
+    {
+      "name": "feedback_duration",
+      "label": "Assessment Duration Days",
+      "type": "select"
+    }
+  ],
+  "save_btn_text": " Submit ",
+  "add_participant_success_message": "User Added Successfully",
+  "update_participant_title": "Edit User",
+  "update_btn_text": " Update ",
+  "edit_participant_form_fields": [
+    {
+      "name": "user_email",
+      "label": "Email",
+      "type": "input"
+    },
+    {
+      "name": "first_name",
+      "label": "First Name",
+      "type": "input"
+    },
+    {
+      "name": "last_name",
+      "label": "Last Name",
+      "type": "input"
+    },
+    {
+      "name": "feedback_duration",
+      "label": "Assessment Duration Days",
+      "type": "select"
+    }
+  ],
+  "edit_participant_success_message": "User Information Updated Successfully",
+  "delete_confirmation_message": "Do you want to delete the participant?",
+  "delete_participant_success_message": "Invitation Deleted Successfully",
+  "index_of_first_user_card": 1,
+  "max_participant_on_page": 8,
+  "minimum_feedback_duration": 3,
+  "add_rater_button_label": " Add Rater ",
+  "add_rater_modal_title": "Add User",
+  "rater_icon_class": "bi-star-fill",
+  "add_rater_form_fields": [
+    {
+      "name": "user_email",
+      "label": "Email",
+      "type": "input"
+    },
+    {
+      "name": "first_name",
+      "label": "First Name",
+      "type": "input"
+    },
+    {
+      "name": "last_name",
+      "label": "Last Name",
+      "type": "input"
+    },
+    {
+      "name": "rater_type",
+      "label": "Rater Type",
+      "type": "select"
+    }
+  ],  
+  "edit_rater_modal_title": "Edit User",
+  "edit_rater_form_fields": [
+    {
+      "name": "user_email",
+      "label": "Email",
+      "type": "input"
+    },
+    {
+      "name": "first_name",
+      "label": "First Name",
+      "type": "input"
+    },
+    {
+      "name": "last_name",
+      "label": "Last Name",
+      "type": "input"
+    },
+    {
+      "name": "rater_type",
+      "label": "Rater Type",
+      "type": "select"
+    }
+  ],
+  "add_rater_success_message": "User Added Successfully",
+  "edit_rater_success_message": "User Information Updated Successfully",
+  "delete_rater_success_message": "Invitation Deleted Successfully",
+  "add_participant_empty_form_validations": [
+    {
+      "name": "user_email",
+      "label": "Email",
+      "validation": "Email is required."
+    },
+    {
+      "name": "first_name",
+      "label": "First Name",
+      "validation": "First name is required."
+    },
+    {
+      "name": "last_name",
+      "label": "Last Name",
+      "validation": ""
+    },
+    {
+      "name": "user_type",
+      "label": "User Type",
+      "validation": "Please select the Assessment Duration Days."
+    }
+  ],
+  "invalid_first_name_validation": "First name can only contain letters.",
+  "empty_select_admin_input": "Please select the admin.",
+  "index_of_first_name_input": 2,
+  "index_of_email_input": 1,
+  "index_of_feedback_duration_input": 4
+}

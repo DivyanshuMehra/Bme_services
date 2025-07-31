@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {
+    "offset": {
+      "type": "number"
+    },
+    "totalItems": {
+      "type": "number"
+    },
+    "totalPages": {
+      "type": "number"
+    },
+    "itemCount": {
+      "type": "number"
+    },
+    "page": {
+      "type": "number"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "question_subcategory": {
+            "type": "string"
+          },
+          "id": {
+            "type": "number"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "updated_at": {
+            "type": "string"
+          },
+          "question_category": {
+            "type": "string"
+          },
+          "question_type": {
+            "type": "string"
+          },
+          "input_type": {
+            "type": "string"
+          },
+          "question_text": {
+            "type": "string"
+          },
+          "company_id": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "question_subcategory",
+          "id",
+          "created_at",
+          "updated_at",
+          "question_category",
+          "question_type",
+          "input_type",
+          "question_text",
+          "company_id"
+        ]
+      }
+    }
+  },
+  "required": [
+    "offset",
+    "totalItems",
+    "totalPages",
+    "itemCount",
+    "page",
+    "items"
+  ]
+}

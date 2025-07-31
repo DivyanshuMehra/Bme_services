@@ -1,0 +1,19 @@
+{
+  "name": "cccc",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "gitea@git.rubico.tech:denver.divyanshu/Trusted_leader_360_test_project.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21",
+    "cypress": "^14.3.3"
+  }
+}

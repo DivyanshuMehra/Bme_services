@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "offset": {
+      "type": "number"
+    },
+    "totalItems": {
+      "type": "number"
+    },
+    "totalPages": {
+      "type": "number"
+    },
+    "itemCount": {
+      "type": "number"
+    },
+    "page": {
+      "type": "number"
+    },
+    "items": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "offset",
+    "totalItems",
+    "totalPages",
+    "itemCount",
+    "page",
+    "items"
+  ]
+}

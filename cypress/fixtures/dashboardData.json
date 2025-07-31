@@ -1,0 +1,26 @@
+{
+  "page_url": "/dashboard",
+  "manage_question_page_url": "/manage-questions",
+  "index_of_first_company_card": 2,
+  "page_title": "Statistics",
+  "stats_card": [
+    {
+      "name": "invited_users",
+      "label": "Invited Users",
+      "icon_class": "bi-person"
+    },
+    {
+      "name": "total_companies",
+      "label": "Total Companies",
+      "icon_class": "bi-buildings"
+    },
+    {
+      "name": "active_sessions",
+      "label": "Active Sessions",
+      "icon_class": "bi-file-earmark-spreadsheet"
+    }
+  ],
+  "total_companies_title": "Total Companies",
+  "invited_users_title": "Invited Users",
+  "active_sessions_title": "Active Sessions"
+}

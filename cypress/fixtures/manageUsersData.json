@@ -1,0 +1,172 @@
+{
+  "page_url": "/manage-users",
+  "manage_question_page_url": "/manage-questions",
+  "menu_name": "Manage Users",
+  "page_heading": "Manage Users",
+  "page_add_user_button": {
+    "name": "add_user",
+    "label": " Add User ",
+    "class": "btn-primary"
+  },
+  "add_user_title": "Add User",
+  "search_bar_placeholder": "Search",
+  "search_bar_button_text": " Search ",
+  "user_tabs": [
+    {
+      "name": "all",
+      "label": " All ",
+      "icon_class": "bi-grid-fill"
+    },
+    {
+      "name": "admin",
+      "label": " Admins ",
+      "icon_class": "bi-gear-fill"
+    },
+    {
+      "name": "participant",
+      "label": " Participants ",
+      "icon_class": "bi-person-fill"
+    },
+    {
+      "name": "rater",
+      "label": " Raters ",
+      "icon_class": "bi-star-fill"
+    }
+  ],
+  "user_icon_classes": [
+    "bi bi-gear-fill",
+    "bi bi-person-fill",
+    "bi bi-star-fill"
+  ],
+  "admin_card_tag": "Invited Participants:",
+  "default_selected_tab": " All ",
+  "active_tab_class": "active",
+  "add_user_form_fields": [
+    {
+      "name": "user_email",
+      "label": "Email",
+      "type": "input"
+    },
+    {
+      "name": "first_name",
+      "label": "First Name",
+      "type": "input"
+    },
+    {
+      "name": "last_name",
+      "label": "Last Name",
+      "type": "input"
+    },
+    {
+      "name": "user_type",
+      "label": "User Type",
+      "type": "select"
+    },
+    {
+      "name": "select_admin",
+      "label": "Select Admin",
+      "type": "select"
+    },
+    {
+      "name": "feedback_duration",
+      "label": "Feedback Duration",
+      "type": "select"
+    },
+    {
+      "name": "select_participant",
+      "label": "Select Participant",
+      "type": "select"
+    },
+    {
+      "name": "rater_type",
+      "label": "Rater Type",
+      "type": "select"
+    }
+  ],
+  "save_btn_text": " Submit ",
+  "add_user_success_message": "User Added Successfully",
+  "update_user_title": "Edit User",
+  "update_btn_text": " Update ",
+  "edit_user_form_fields": [
+    {
+      "name": "user_email",
+      "label": "Email",
+      "type": "input"
+    },
+    {
+      "name": "first_name",
+      "label": "First Name",
+      "type": "input"
+    },
+    {
+      "name": "last_name",
+      "label": "Last Name",
+      "type": "input"
+    },
+    {
+      "name": "user_type",
+      "label": "User Type",
+      "type": "select"
+    }
+  ],
+  "edit_participant_form_fields": [
+    {
+      "name": "select_admin",
+      "label": "Select Admin",
+      "type": "select"
+    },
+    {
+      "name": "feedback_duration",
+      "label": "Feedback Duration",
+      "type": "select"
+    }
+  ],
+  "edit_rater_form_fields": [
+    {
+      "name": "select_participant",
+      "label": "Select Participant",
+      "type": "select"
+    },
+    {
+      "name": "rater_type",
+      "label": "Rater Type",
+      "type": "select"
+    }
+  ],
+  "edit_user_success_message": "User updated successfully",
+  "delete_confirmation_message": "Do you want to delete the user?",
+  "delete_user_success_message": "User deleted successfully",
+  "max_users_on_page": 8,
+  "add_user_empty_form_validations": [
+    {
+      "name": "user_email",
+      "label": "Email",
+      "validation": "Email is required."
+    },
+    {
+      "name": "first_name",
+      "label": "First Name",
+      "validation": "First name is required."
+    },
+    {
+      "name": "last_name",
+      "label": "Last Name",
+      "validation": ""
+    },
+    {
+      "name": "user_type",
+      "label": "User Type",
+      "validation": "Please select a user type."
+    }
+  ],
+  "invalid_first_name_validation": "First name can only contain letters.",
+  "no_admin_selected_validation": "Please select an admin.",
+  "no_assessment_duration_selected_validation": "Please select the Assessment Duration Days.",
+  "no_participant_selected_validation": "Please select a participant.",
+  "no_rater_type_selected_validation": "Please select a rater type.",
+  "index_of_first_name_input": 2,
+  "index_of_email_input": 1,
+  "index_of_user_type_input": 4,
+  "index_of_select_admin_input": 5,
+  "index_of_assessment_duration_input": 6
+}

@@ -1,0 +1,112 @@
+{
+  "page_url": "/manage-questions",
+  "menu_name": "Manage Questions",
+  "page_heading": "Manage Questions",
+  "freeze_question_label": " Freeze Questions ",
+  "preview_feedback_page_url": "/preview-feedback",
+  "page_top_buttons": [
+    {
+      "name": "import_csv",
+      "label": " Import CSV ",
+      "class": "btn-primary"
+    },
+    {
+      "name": "add_question",
+      "label": " Add Question ",
+      "class": "btn-primary"
+    },
+    {
+      "name": "preview_feedback",
+      "label": " Preview Assessment Questions ",
+      "class": "btn-primary"
+    }
+  ],
+  "messages_on_button_click_when_question_freezed": [
+    {
+      "name": "import_csv",
+      "button_label": " Import CSV ",
+      "message": "Please Unfreeze Questions to Import CSV"
+    },
+    {
+      "name": "add_question",
+      "button_label": " Add Question ",
+      "message": "Please Unfreeze Questions to Add Question"
+    }
+  ],
+  "page_top_freeze_or_unfreeze_button_position": 4,
+  "page_top_freeze_button": {
+    "name": "freeze_question",
+    "label": "Freeze Questions ",
+    "class": "btn-primary"
+  },
+  "page_top_unfreeze_button": {
+    "name": "unfreeze_question",
+    "label": "Unfreeze Questions ",
+    "class": "btn-primary"
+  },
+  "page_add_question_button": {
+    "name": "add_question",
+    "label": " Add Question ",
+    "class": "btn-primary"
+  },
+  "freeze_question_btn_txt": " Freeze Questions ",
+  "preview_feedback_label": " Preview Assessment Questions ",
+  "message_on_add_question_button_when_question_freezed": "Please Unfreeze Questions to Add Question",
+  "message_on_import_csv_button_when_question_freezed": "Please Unfreeze Questions to Import CSV",
+  "no_questions_added_message_on_preview_assessment": "Please add questions to preview the assessment",
+  "max_question_on_page": 8,
+  "add_question_title": "Add Question",
+  "add_question_form_fields": [
+    {
+      "name": "question",
+      "label": "Question",
+      "type": "textarea"
+    },
+    {
+      "name": "question_type",
+      "label": "Type",
+      "type": "select"
+    },
+    {
+      "name": "question_category",
+      "label": "Category",
+      "type": "select"
+    },
+    {
+      "name": "question_sub_category",
+      "label": "Sub Category",
+      "type": "select"
+    }
+  ],
+  "save_btn_text": " Submit ",
+  "add_question_success_message": "Question Added Successfully",
+  "question_edit_action_label": "Edit ",
+  "update_question_title": "Edit Question",
+  "update_question_form_fields": [
+    {
+      "name": "question",
+      "label": "Question",
+      "type": "textarea"
+    },
+    {
+      "name": "question_type",
+      "label": "Type",
+      "type": "select"
+    },
+    {
+      "name": "question_category",
+      "label": "Category",
+      "type": "select"
+    },
+    {
+      "name": "question_sub_category",
+      "label": "Sub Category",
+      "type": "select"
+    }
+  ],
+  "update_btn_text": " Update ",
+  "update_question_success_message": "Question Updated Successfully",
+  "question_delete_action_label": "Delete ",
+  "delete_confirmation_message": " Do you want to delete this Question? ",
+  "delete_question_success_message": "Question Deleted Successfully"
+}

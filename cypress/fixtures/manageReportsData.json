@@ -1,0 +1,7 @@
+{
+    "menu_name": "Manage Reports",
+    "page_url": "/manage-reports",
+    "page_heading": "Manage Reports",
+    "page_sub_heading": "List of Admins",
+    "max_admins_on_page": 8
+}

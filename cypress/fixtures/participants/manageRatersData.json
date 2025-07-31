@@ -1,0 +1,64 @@
+{
+    "choose_account_page_url": "/choose-roles",
+    "page_url": "/manage-raters",
+    "dashboard_page_url": "dashboard",
+    "add_yourself_rater_btn_text": " Add Yourself as Rater ",
+    "added_as_rater_message": "You have been added as a Self Rater",
+    "menu_name": "Manage Raters",
+    "page_heading": "Manage Raters",
+    "add_rater_button_label": " Add Rater ",
+    "add_rater_modal_title": "Add User",
+    "rater_icon_class": "bi-star-fill",
+    "save_btn_text": " Submit ",
+    "add_rater_form_fields": [
+      {
+        "name": "user_email",
+        "label": "Email",
+        "type": "input"
+      },
+      {
+        "name": "first_name",
+        "label": "First Name",
+        "type": "input"
+      },
+      {
+        "name": "last_name",
+        "label": "Last Name",
+        "type": "input"
+      },
+      {
+        "name": "rater_type",
+        "label": "Rater Type",
+        "type": "select"
+      }
+    ],
+    "edit_rater_modal_title": "Edit User",
+    "edit_rater_form_fields": [
+      {
+        "name": "user_email",
+        "label": "Email",
+        "type": "input"
+      },
+      {
+        "name": "first_name",
+        "label": "First Name",
+        "type": "input"
+      },
+      {
+        "name": "last_name",
+        "label": "Last Name",
+        "type": "input"
+      },
+      {
+        "name": "rater_type",
+        "label": "Rater Type",
+        "type": "select"
+      }
+    ],
+    "update_btn_text": " Update ",
+    "add_rater_success_message": "User Added Successfully",
+    "add_rater_yourself_success_message": "You have been added as an Self Rater",
+    "edit_rater_success_message": "User Information Updated Successfully",
+    "delete_rater_success_message": "Invitation Deleted Successfully"
+  }
+  

@@ -1,0 +1,24 @@
+{
+  "landing_page_url": "/login",
+  "auth_url": "/oauth/authorization?grant_type=pkce",
+  "page_title": "Log in",
+  "landing_page_image_path": "/images/ldc-logo.svg",
+  "form_heading1": "Login",
+  "form_heading2": "Enter your email and password to login",
+  "email_label": "Email*",
+  "password_label": "Password*",
+  "button_text": "Login",
+  "forgot_password_url": "/forgot-password",
+  "forgot_password_text": "Forgot Password?",
+  "privacy_link": "https://coachingtolead.wpenginepowered.com/privacy-policy/",
+  "privacy_text": "Privacy",
+  "terms_link": "https://coachingtolead.wpenginepowered.com/terms-and-conditions/",
+  "terms_text": "Terms",
+  "validation_errors_txt": [
+    "Please enter a valid email",
+    "Email is required",
+    "Password is required",
+    "Credentials are invalid"
+  ],
+  "dashboard_url": "/dashboard"
+}
