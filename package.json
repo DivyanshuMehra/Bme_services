@@ -15,5 +15,9 @@
     "@playwright/test": "^1.52.0",
     "@types/node": "^22.15.21",
     "cypress": "^14.3.3"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "cypress-mochawesome-reporter": "^4.0.0"
   }
 }
